@@ -1,0 +1,26 @@
+<div class="sky-image-wrapper">
+  <img
+    [ngClass]="{'sky-image-border': showBorder }"
+    class="sky-image"
+    [src]="imageSource"
+    [alt]="imageAlt" />
+  <div
+    *ngIf="caption"
+    class="sky-image-caption-container"
+    [ngClass]="{
+      'sky-caption-default': captionType === 'default',
+      'sky-caption-info': captionType === 'info',
+      'sky-caption-success': captionType === 'success',
+      'sky-caption-warning': captionType === 'warning',
+      'sky-caption-danger': captionType === 'danger'
+    }">
+    <div class="sky-image-divider"></div>
+    <div class="sky-image-caption" [ngSwitch]="captionType">
+      <p ngPreserveWhitespaces="true">
+        <span *ngSwitchCase="'success'">{{ 'sky_image_do_test' | skyLibResources }}</span>
+        <span *ngSwitchCase="'danger'">{{ 'sky_image_dont_text' | skyLibResources }}</span>
+        {{caption}}
+      </p>
+    </div>
+  </div>
+</div>

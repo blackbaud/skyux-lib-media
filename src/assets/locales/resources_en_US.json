@@ -1,0 +1,10 @@
+{
+  "sky_image_do_test": {
+    "message": "Do",
+    "_description": "prefix text for success content"
+  },
+  "sky_image_dont_test": {
+    "message": "Dont",
+    "_description": "prefix text for danger content"
+  }
+}

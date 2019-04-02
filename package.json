@@ -1,0 +1,35 @@
+{
+  "name": "blackbaud-skyux-lib-images",
+  "version": "1.0.0",
+  "description": "Single-page-application for skyux-lib-images",
+  "main": "bundles/bundle.umd.js",
+  "module": "index.ts",
+  "engines": {
+    "node": ">=6.11.1"
+  },
+  "scripts": {
+    "skyux": "skyux",
+    "test": "skyux test && skyux e2e && skyux build && npm run build",
+    "build": "skyux build-public-library",
+    "start": "skyux serve"
+  },
+  "keywords": [],
+  "author": "Blackbaud",
+  "license": "ISC",
+  "peerDependencies": {},
+  "dependencies": {
+    "@angular/common": "^4.3.6",
+    "@angular/core": "^4.3.6",
+    "@skyux/core": "^3.5.1",
+    "@skyux/i18n": "^3.5.0"
+  },
+  "devDependencies": {
+    "@blackbaud/skyux-builder": "1.31.1",
+    "@blackbaud/skyux": "2.42.0",
+    "@skyux-sdk/builder-plugin-skyux": "1.0.0-rc.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
