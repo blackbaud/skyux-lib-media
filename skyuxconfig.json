@@ -1,13 +1,11 @@
 {
   "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
-  "name": "sky-images",
+  "name": "skyux-media",
   "mode": "easy",
   "compileMode": "aot",
-  "appSettings": {
-    "myLibrary": {
-      "name": "SKY Images"
-    }
-  },
+  "plugins": [
+    "@skyux-sdk/builder-plugin-skyux"
+  ],
   "app": {
     "styles": [
       "@skyux/theme/css/sky.css"

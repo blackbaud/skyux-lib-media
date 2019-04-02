@@ -3,21 +3,20 @@ import {
 } from '@angular/core';
 
 import {
-  SkyImagesModule
+  SkyImageModule
 } from './public';
 
-// Specify entry components, module-level providers, etc. here.
 import {
   AppSkyModule
 } from './app-sky.module';
 
 @NgModule({
   imports: [
-    SkyImagesModule
+    SkyImageModule
   ],
   exports: [
     AppSkyModule,
-    SkyImagesModule
+    SkyImageModule
   ],
   providers: [],
   entryComponents: []

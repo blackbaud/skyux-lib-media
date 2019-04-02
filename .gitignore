@@ -17,6 +17,7 @@ jspm_packages
 .node_repl_history
 
 # SKY UX temp directory
+.skypageslocales
 .skypagestmp
 .skyuxtmp
 .srctmp
@@ -24,9 +25,15 @@ jspm_packages
 # SKY UX build directory
 dist
 
+# SKY UX visual directory
+screenshots-baseline-local
+screenshots-diff-local
+BrowserStackLocal
+
 # OS specific files
 .DS_Store
 
 *.ngfactory.ts
 *.ngsummary.json
 yarn.lock
+package-lock.json
