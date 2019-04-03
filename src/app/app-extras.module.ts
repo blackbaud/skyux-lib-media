@@ -7,13 +7,9 @@ import {
 } from './public';
 
 @NgModule({
-  imports: [
-    SkyImageModule
-  ],
+  imports: [],
   exports: [
     SkyImageModule
-  ],
-  providers: [],
-  entryComponents: []
+  ]
 })
 export class AppExtrasModule { }
