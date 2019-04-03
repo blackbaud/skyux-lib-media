@@ -1,7 +1,7 @@
 {
   "name": "@skyux/media",
-  "version": "1.0.0",
-  "description": "Single-page-application for skyux-lib-media",
+  "version": "1.0.0-rc.1",
+  "description": "SKY UX Media",
   "main": "bundles/bundle.umd.js",
   "module": "index.ts",
   "scripts": {
@@ -19,9 +19,7 @@
     "@skyux/core": "^3.5.1",
     "@skyux/i18n": "^3.5.0"
   },
-  "dependencies": {
-    "prismjs": "1.15.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@blackbaud/skyux-builder": "1.31.1",
     "@blackbaud/skyux": "2.42.0",
