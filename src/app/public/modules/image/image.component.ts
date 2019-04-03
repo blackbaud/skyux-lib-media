@@ -21,7 +21,7 @@ export class SkyImageComponent {
   public imageSource: string;
 
   @Input()
-  public imageAlt: string = '';
+  public imageAlt: string = 'image';
 
   @Input()
   public caption: string;

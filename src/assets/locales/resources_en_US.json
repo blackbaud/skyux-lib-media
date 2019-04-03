@@ -4,7 +4,7 @@
     "_description": "prefix text for success content"
   },
   "sky_image_dont_text": {
-    "message": "Dont",
+    "message": "Don't",
     "_description": "prefix text for danger content"
   }
 }

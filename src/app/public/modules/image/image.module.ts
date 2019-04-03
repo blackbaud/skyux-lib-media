@@ -17,6 +17,6 @@ import { SkyImageResourcesModule } from '../shared/image-resources.module';
   ],
   exports: [
     SkyImageComponent
-  ],
+  ]
 })
 export class SkyImageModule { }
