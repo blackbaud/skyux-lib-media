@@ -1,5 +1,9 @@
 @import './node_modules/@skyux/theme/scss/mixins.scss';
 
+.sky-image-wrapper {
+  display: inline-block;
+}
+
 .sky-image {
   display: block;
   max-width: 100%;
