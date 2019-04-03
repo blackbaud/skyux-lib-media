@@ -17,6 +17,9 @@
     }
   },
   "testSettings": {
+    "e2e": {
+      "browserSet": "speedy"
+    },
     "unit": {
       "browserSet": "paranoid"
     }
