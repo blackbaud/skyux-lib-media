@@ -1,14 +1,24 @@
 {
-  "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
-  "name": "skyux-media",
+  "name": "skyux-lib-media",
   "mode": "easy",
   "compileMode": "aot",
+  "skyuxModules": [
+    "SkyErrorModule"
+  ],
   "plugins": [
     "@skyux-sdk/builder-plugin-skyux"
   ],
   "app": {
-    "styles": [
-      "@skyux/theme/css/sky.css"
-    ]
+    "title": "Sky Media"
+  },
+  "appSettings": {
+    "myLibrary": {
+      "name": "Sky Media"
+    }
+  },
+  "testSettings": {
+    "unit": {
+      "browserSet": "paranoid"
+    }
   }
 }

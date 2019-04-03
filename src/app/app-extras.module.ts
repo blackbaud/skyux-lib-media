@@ -6,16 +6,11 @@ import {
   SkyImageModule
 } from './public';
 
-import {
-  AppSkyModule
-} from './app-sky.module';
-
 @NgModule({
   imports: [
     SkyImageModule
   ],
   exports: [
-    AppSkyModule,
     SkyImageModule
   ],
   providers: [],
