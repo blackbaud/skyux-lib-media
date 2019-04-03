@@ -6,16 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./image.component.scss']
 })
 export class SkyImageComponent {
-  private _captionType: string = 'default';
-
   @Input()
-  public set captionType(value: string) {
-    this._captionType = value;
-  }
-
-  public get captionType(): string {
-    return this._captionType;
-  }
+  public captionType: string = 'default';
 
   @Input()
   public imageSource: string;
