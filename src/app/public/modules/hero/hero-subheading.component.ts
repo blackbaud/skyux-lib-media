@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'sky-hero-subheading',
   templateUrl: './hero-subheading.component.html',
   styleUrls: ['./hero-subheading.component.scss']
 })
-export class SkyHeroSubheadingComponent { }
+export class SkyHeroSubheadingComponent {
+  @Input()
+  public heroTextColor: string = '#fff';
+}
