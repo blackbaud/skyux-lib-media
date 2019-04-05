@@ -1,10 +1,20 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import {
+  Component,
+  OnInit,
+  Input,
+  ChangeDetectionStrategy
+} from '@angular/core';
+
+import {
+  DomSanitizer,
+  SafeResourceUrl
+} from '@angular/platform-browser';
 
 @Component({
   selector: 'sky-video',
   templateUrl: './video.component.html',
-  styleUrls: ['./video.component.scss']
+  styleUrls: ['./video.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SkyVideoComponent implements OnInit {
   @Input()
@@ -13,7 +23,8 @@ export class SkyVideoComponent implements OnInit {
   public src: SafeResourceUrl;
 
   constructor(
-    private sanitizer: DomSanitizer) { }
+    private sanitizer: DomSanitizer
+  ) { }
 
   public ngOnInit() {
     this.src = this.sanitizer.bypassSecurityTrustResourceUrl(this.videoSource);

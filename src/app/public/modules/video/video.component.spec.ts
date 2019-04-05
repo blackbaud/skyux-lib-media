@@ -1,9 +1,19 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { DebugElement } from '@angular/core';
+import {
+  ComponentFixture,
+  TestBed
+} from '@angular/core/testing';
 
-import { expect } from '@blackbaud/skyux-builder/runtime/testing/browser';
+import {
+   DebugElement
+} from '@angular/core';
 
-import { SkyVideoComponent } from './video.component';
+import {
+  expect
+} from '@blackbaud/skyux-builder/runtime/testing/browser';
+
+import {
+  SkyVideoComponent
+} from './video.component';
 
 describe('SkyVideoComponent', () => {
   let component: SkyVideoComponent;
