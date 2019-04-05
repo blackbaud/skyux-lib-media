@@ -1,12 +1,26 @@
-import { DebugElement } from '@angular/core';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
+import {
+  DebugElement
+} from '@angular/core';
+import {
+  ComponentFixture,
+  TestBed
+} from '@angular/core/testing';
 
-import { expect } from '@blackbaud/skyux-builder/runtime/testing/browser';
+import {
+  By
+} from '@angular/platform-browser';
 
-import { SkyHeroModule } from './hero.module';
+import {
+  expect
+} from '@blackbaud/skyux-builder/runtime/testing/browser';
 
-import { SkyHeroComponent } from './hero.component';
+import {
+  SkyHeroModule
+} from './hero.module';
+
+import {
+  SkyHeroComponent
+} from './hero.component';
 
 describe('SkyHeroComponent', () => {
   let component: SkyHeroComponent;

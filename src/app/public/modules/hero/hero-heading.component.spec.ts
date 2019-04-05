@@ -1,8 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {
+  ComponentFixture,
+  TestBed
+} from '@angular/core/testing';
 
-import { expect } from '@blackbaud/skyux-builder/runtime/testing/browser';
+import {
+  expect
+} from '@blackbaud/skyux-builder/runtime/testing/browser';
 
-import { SkyHeroHeadingComponent } from './hero-heading.component';
+import {
+  SkyHeroHeadingComponent
+} from './hero-heading.component';
 
 describe('SkyHeroHeadingComponent', () => {
   let component: SkyHeroHeadingComponent;

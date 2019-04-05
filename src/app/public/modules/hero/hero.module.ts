@@ -1,9 +1,22 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {
+  NgModule
+} from '@angular/core';
 
-import { SkyHeroComponent } from './hero.component';
-import { SkyHeroHeadingComponent } from './hero-heading.component';
-import { SkyHeroSubheadingComponent } from './hero-subheading.component';
+import {
+  CommonModule
+} from '@angular/common';
+
+import {
+  SkyHeroComponent
+} from './hero.component';
+
+import {
+  SkyHeroHeadingComponent
+} from './hero-heading.component';
+
+import {
+  SkyHeroSubheadingComponent
+} from './hero-subheading.component';
 
 @NgModule({
   declarations: [
