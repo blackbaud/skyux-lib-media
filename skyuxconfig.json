@@ -1,0 +1,28 @@
+{
+  "name": "skyux-media",
+  "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
+  "mode": "easy",
+  "compileMode": "aot",
+  "skyuxModules": [
+    "SkyErrorModule"
+  ],
+  "plugins": [
+    "@skyux-sdk/builder-plugin-skyux"
+  ],
+  "app": {
+    "title": "Sky Media"
+  },
+  "appSettings": {
+    "myLibrary": {
+      "name": "Sky Media"
+    }
+  },
+  "testSettings": {
+    "e2e": {
+      "browserSet": "speedy"
+    },
+    "unit": {
+      "browserSet": "paranoid"
+    }
+  }
+}
