@@ -1,9 +1,14 @@
-import { Component, Input } from '@angular/core';
+import {
+  Component,
+  ChangeDetectionStrategy,
+  Input
+} from '@angular/core';
 
 @Component({
   selector: 'sky-image',
   templateUrl: './image.component.html',
-  styleUrls: ['./image.component.scss']
+  styleUrls: ['./image.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SkyImageComponent {
   @Input()

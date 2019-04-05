@@ -1,10 +1,10 @@
 {
-  "sky_image_do_test": {
+  "skyux_image_do_text": {
     "message": "Do",
-    "_description": "prefix text for success content"
+    "_description": "Prefix text for success content"
   },
-  "sky_image_dont_text": {
+  "skyux_image_dont_text": {
     "message": "Don't",
-    "_description": "prefix text for danger content"
+    "_description": "Prefix text for danger content"
   }
 }

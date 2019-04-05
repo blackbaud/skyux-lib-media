@@ -3,15 +3,15 @@ import {
 } from '@angular/core';
 
 import {
-  SkyImageModule,
-  SkyHeroModule
+  SkyHeroModule,
+  SkyImageModule
 } from './public';
 
 @NgModule({
   imports: [],
   exports: [
-    SkyImageModule,
-    SkyHeroModule
+    SkyHeroModule,
+    SkyImageModule
   ]
 })
 export class AppExtrasModule { }

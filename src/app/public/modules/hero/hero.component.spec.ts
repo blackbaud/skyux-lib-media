@@ -4,6 +4,8 @@ import { By } from '@angular/platform-browser';
 
 import { expect } from '@blackbaud/skyux-builder/runtime/testing/browser';
 
+import { SkyHeroModule } from './hero.module';
+
 import { SkyHeroComponent } from './hero.component';
 
 describe('SkyHeroComponent', () => {
@@ -13,7 +15,7 @@ describe('SkyHeroComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ SkyHeroComponent ]
+      imports: [ SkyHeroModule ]
     })
     .compileComponents();
 
