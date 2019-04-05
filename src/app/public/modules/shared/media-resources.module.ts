@@ -7,14 +7,14 @@ import {
 } from '@skyux/i18n';
 
 import {
-  SkyImageResourcesProvider
-} from '../../plugin-resources/image-resources-provider';
+  SkyMediaResourcesProvider
+} from '../../plugin-resources/media-resources-provider';
 
 @NgModule({
   providers: [{
     provide: SKY_LIB_RESOURCES_PROVIDERS,
-    useClass: SkyImageResourcesProvider,
+    useClass: SkyMediaResourcesProvider,
     multi: true
   }]
 })
-export class SkyImageResourcesModule { }
+export class SkyMediaResourcesModule { }
