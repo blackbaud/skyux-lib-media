@@ -12,11 +12,6 @@
   "app": {
     "title": "Sky Media"
   },
-  "appSettings": {
-    "myLibrary": {
-      "name": "Sky Media"
-    }
-  },
   "testSettings": {
     "e2e": {
       "browserSet": "speedy"
