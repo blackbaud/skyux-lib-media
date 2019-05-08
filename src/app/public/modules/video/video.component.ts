@@ -1,8 +1,8 @@
 import {
+  ChangeDetectionStrategy,
   Component,
-  OnInit,
   Input,
-  ChangeDetectionStrategy
+  OnInit
 } from '@angular/core';
 
 import {
@@ -17,6 +17,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SkyVideoComponent implements OnInit {
+
   @Input()
   public videoSource: string;
 
@@ -26,7 +27,7 @@ export class SkyVideoComponent implements OnInit {
     private sanitizer: DomSanitizer
   ) { }
 
-  public ngOnInit() {
+  public ngOnInit(): void {
     this.src = this.sanitizer.bypassSecurityTrustResourceUrl(this.videoSource);
   }
 }

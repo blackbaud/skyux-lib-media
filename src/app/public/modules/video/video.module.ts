@@ -1,7 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {
+  CommonModule
+} from '@angular/common';
 
-import { SkyVideoComponent } from './video.component';
+import {
+  NgModule
+} from '@angular/core';
+
+import {
+  SkyVideoComponent
+} from './video.component';
 
 @NgModule({
   declarations: [

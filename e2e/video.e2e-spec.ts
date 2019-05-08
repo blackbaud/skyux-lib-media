@@ -3,17 +3,20 @@ import {
   SkyHostBrowser
 } from '@skyux-sdk/e2e';
 
-describe('Image', () => {
-  it('should match previous screenshot', (done) => {
+describe('Video', () => {
+  beforeEach(() => {
     SkyHostBrowser.get('visual/video');
+  });
+
+  it('should match previous screenshot', (done) => {
     SkyHostBrowser.setWindowBreakpoint('lg');
+
     expect('.sky-video-visual').toMatchBaselineScreenshot(done, {
       screenshotName: 'video-lg'
     });
   });
 
   it('should match previous screenshot (screen: xs)', (done) => {
-    SkyHostBrowser.get('visual/video');
     SkyHostBrowser.setWindowBreakpoint('xs');
     expect('.sky-video-visual').toMatchBaselineScreenshot(done, {
       screenshotName: 'video-xs'

@@ -9,7 +9,7 @@ import {
 
 import {
   expect
-} from '@blackbaud/skyux-builder/runtime/testing/browser';
+} from '@skyux-sdk/testing';
 
 import {
   SkyVideoComponent
@@ -26,8 +26,7 @@ describe('SkyVideoComponent', () => {
       declarations: [
         SkyVideoComponent
       ]
-    })
-    .compileComponents();
+    });
 
     fixture = TestBed.createComponent(SkyVideoComponent);
     component = fixture.componentInstance;
@@ -48,7 +47,8 @@ describe('SkyVideoComponent', () => {
     component.videoSource = videoSource;
     component.ngOnInit();
     fixture.detectChanges();
-    let src = debugElement.nativeElement.querySelector('iframe').getAttribute('src');
+
+    const src = debugElement.nativeElement.querySelector('iframe').getAttribute('src');
 
     expect(src).toBe(videoSource);
   });
