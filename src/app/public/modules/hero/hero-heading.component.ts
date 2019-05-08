@@ -10,5 +10,5 @@ import {
 })
 export class SkyHeroHeadingComponent {
   @Input()
-  public heroTextColor: string = '#fff';
+  public heroTextColor = '#fff';
 }

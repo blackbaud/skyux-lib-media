@@ -5,7 +5,7 @@ import {
 
 import {
   expect
-} from '@blackbaud/skyux-builder/runtime/testing/browser';
+} from '@skyux-sdk/testing';
 
 import {
   SkyHeroSubheadingComponent
@@ -20,8 +20,7 @@ describe('SkyHeroSubheadingComponent', () => {
       declarations: [
         SkyHeroSubheadingComponent
       ]
-    })
-    .compileComponents();
+    });
 
     fixture = TestBed.createComponent(SkyHeroSubheadingComponent);
     component = fixture.componentInstance;

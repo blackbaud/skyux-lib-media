@@ -1,10 +1,11 @@
 import {
-  DebugElement
-} from '@angular/core';
-import {
   ComponentFixture,
   TestBed
 } from '@angular/core/testing';
+
+import {
+  DebugElement
+} from '@angular/core';
 
 import {
   By
@@ -12,7 +13,7 @@ import {
 
 import {
   expect
-} from '@blackbaud/skyux-builder/runtime/testing/browser';
+} from '@skyux-sdk/testing';
 
 import {
   SkyHeroModule
@@ -29,9 +30,10 @@ describe('SkyHeroComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [ SkyHeroModule ]
-    })
-    .compileComponents();
+      imports: [
+        SkyHeroModule
+      ]
+    });
 
     fixture = TestBed.createComponent(SkyHeroComponent);
     component = fixture.componentInstance;
