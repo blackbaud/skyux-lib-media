@@ -10,6 +10,9 @@
     "@skyux-sdk/builder-plugin-skyux"
   ],
   "app": {
+    "styles": [
+      "src/app/visual-styles.scss"
+    ],
     "title": "Sky Media"
   },
   "testSettings": {

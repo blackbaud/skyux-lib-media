@@ -3,13 +3,14 @@ import {
 } from '@angular/core';
 
 import {
+  SkyHeroModule,
   SkyImageModule,
   SkyVideoModule
 } from './public';
 
 @NgModule({
-  imports: [],
   exports: [
+    SkyHeroModule,
     SkyImageModule,
     SkyVideoModule
   ]
