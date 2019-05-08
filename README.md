@@ -1,5 +1,5 @@
-# @skyux/media
+# @blackbaud/skyux-lib-media
 
-[![npm](https://img.shields.io/npm/v/@skyux/media.svg)](https://www.npmjs.com/package/@skyux/media)
-[![status](https://travis-ci.org/blackbaud/skyux-media.svg?branch=master)](https://travis-ci.org/blackbaud/skyux-media)
-[![coverage](https://codecov.io/gh/blackbaud/skyux-media/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/gh/blackbaud/skyux-media/branch/master)
+[![npm](https://img.shields.io/npm/v/@blackbaud/skyux-lib-media.svg)](https://www.npmjs.com/package/@blackbaud/skyux-lib-media)
+[![status](https://travis-ci.org/blackbaud/skyux-lib-media.svg?branch=master)](https://travis-ci.org/blackbaud/skyux-lib-media)
+[![coverage](https://codecov.io/gh/blackbaud/skyux-lib-media/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/gh/blackbaud/skyux-lib-media/branch/master)
