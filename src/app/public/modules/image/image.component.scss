@@ -24,3 +24,27 @@
   background-color: $sky-border-color-neutral-medium;
   margin-bottom: $sky-margin-stacked-compact;
 }
+
+.sky-caption-success {
+  .sky-image-divider {
+    background-color: $sky-highlight-color-success;
+  }
+}
+
+.sky-caption-danger {
+  .sky-image-divider {
+    background-color: $sky-highlight-color-danger;
+  }
+}
+
+.sky-caption-warning {
+  .sky-image-divider {
+    background-color: $sky-highlight-color-warning;
+  }
+}
+
+.sky-caption-info {
+  .sky-image-divider {
+    background-color: $sky-highlight-color-info;
+  }
+}
