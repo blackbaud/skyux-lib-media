@@ -6,10 +6,10 @@ import {
 describe('Image', () => {
   beforeEach(() => {
     SkyHostBrowser.get('visual/image');
+    SkyHostBrowser.setWindowBreakpoint('lg');
   });
 
   it('should match previous default caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-default-caption');
 
     expect('#sky-image-default-caption').toMatchBaselineScreenshot(done, {
@@ -27,7 +27,6 @@ describe('Image', () => {
   });
 
   it('should match previous success caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-success-caption');
 
     expect('#sky-image-success-caption').toMatchBaselineScreenshot(done, {
@@ -45,7 +44,6 @@ describe('Image', () => {
   });
 
   it('should match previous danger caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-danger-caption');
 
     expect('#sky-image-danger-caption').toMatchBaselineScreenshot(done, {
@@ -63,7 +61,6 @@ describe('Image', () => {
   });
 
   it('should match previous warning caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-warning-caption');
 
     expect('#sky-image-warning-caption').toMatchBaselineScreenshot(done, {
@@ -81,7 +78,6 @@ describe('Image', () => {
   });
 
   it('should match previous info caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-info-caption');
 
     expect('#sky-image-info-caption').toMatchBaselineScreenshot(done, {
@@ -99,7 +95,6 @@ describe('Image', () => {
   });
 
   it('should match previous show border screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-show-border');
 
     expect('#sky-image-show-border').toMatchBaselineScreenshot(done, {
@@ -117,7 +112,6 @@ describe('Image', () => {
   });
 
   it('should match previous no caption screenshot', (done) => {
-    SkyHostBrowser.setWindowBreakpoint('lg');
     SkyHostBrowser.scrollTo('#sky-image-no-caption');
 
     expect('#sky-image-no-caption').toMatchBaselineScreenshot(done, {
@@ -131,6 +125,22 @@ describe('Image', () => {
 
     expect('#sky-image-no-caption').toMatchBaselineScreenshot(done, {
       screenshotName: 'image-no-caption-xs'
+    });
+  });
+
+  it('should match previous long caption screenshot', (done) => {
+    SkyHostBrowser.scrollTo('#sky-image-long-caption');
+
+    expect('#sky-image-long-caption').toMatchBaselineScreenshot(done, {
+      screenshotName: 'image-long-caption'
+    });
+  });
+
+  it('should match previous long caption screenshot (screen: xs)', (done) => {
+    SkyHostBrowser.scrollTo('#sky-image-long-caption');
+
+    expect('#sky-image-long-caption').toMatchBaselineScreenshot(done, {
+      screenshotName: 'image-long-caption-xs'
     });
   });
 });
