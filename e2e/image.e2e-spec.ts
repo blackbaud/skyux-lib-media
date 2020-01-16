@@ -137,6 +137,7 @@ describe('Image', () => {
   });
 
   it('should match previous long caption screenshot (screen: xs)', (done) => {
+    SkyHostBrowser.setWindowBreakpoint('xs');
     SkyHostBrowser.scrollTo('#sky-image-long-caption');
 
     expect('#sky-image-long-caption').toMatchBaselineScreenshot(done, {
