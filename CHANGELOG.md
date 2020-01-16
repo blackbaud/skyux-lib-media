@@ -1,6 +1,6 @@
 # 1.2.0 (2020-01-16)
 
-- Updated the image component's HTML to be more accessible. [#13](https://github.com/blackbaud/skyux-lib-media/pull/13)
+- Updated the image component's HTML to improve accessibility. [#13](https://github.com/blackbaud/skyux-lib-media/pull/13)
 - Fixed the image component's caption text to wrap to multiple lines if the text extends beyond the width of the image. [#13](https://github.com/blackbaud/skyux-lib-media/pull/13)
 
 # 1.1.0 (2020-01-10)
