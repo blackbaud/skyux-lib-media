@@ -1,6 +1,6 @@
 {
   "name": "@blackbaud/skyux-lib-media",
-  "version": "2.0.0-rc.0",
+  "version": "4.0.0",
   "description": "SKY UX Media",
   "scripts": {
     "build": "skyux build-public-library",
@@ -12,10 +12,10 @@
   "author": "Blackbaud",
   "license": "ISC",
   "peerDependencies": {
-    "@angular/common": "^9.0.2",
-    "@angular/core": "^9.0.2",
-    "@skyux/core": "^4.0.0-rc.0",
-    "@skyux/i18n": "^4.0.0-rc.0"
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.0",
+    "@skyux/core": "^4.0.0",
+    "@skyux/i18n": "^4.0.0"
   },
   "dependencies": {},
   "devDependencies": {
