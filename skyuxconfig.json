@@ -3,16 +3,12 @@
   "name": "skyux-lib-media",
   "mode": "easy",
   "compileMode": "aot",
-  "skyuxModules": [
-    "SkyErrorModule"
-  ],
   "plugins": [
     "@skyux-sdk/builder-plugin-skyux"
   ],
   "app": {
     "styles": [
-      "src/app/visual-styles.scss",
-      "@skyux/theme/css/sky.css"
+      "src/app/visual-styles.scss"
     ],
     "title": "Sky Media"
   },
@@ -22,6 +18,11 @@
     },
     "unit": {
       "browserSet": "paranoid"
+    }
+  },
+  "host": {
+    "frameOptions": {
+      "none": true
     }
   }
 }
